@@ -1,0 +1,29 @@
+name: Validate Template Structure
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check root-level required entries
+        run: |
+          test -f README.md || (echo "❌ Missing README.md at repo root" && exit 1)
+          test -d projectA_fill_tank || (echo "❌ Missing projectA_fill_tank" && exit 1)
+          test -d projectB_two_connected_tanks || (echo "❌ Missing projectB_two_connected_tanks" && exit 1)
+          test -d projectC_grava_flow_control || (echo "❌ Missing projectC_grava_flow_control" && exit 1)
+          echo "✅ Root-level checks OK"
+
+      - name: Check subfolder structure for each project
+        run: |
+          for P in projectA_fill_tank projectB_two_connected_tanks projectC_grava_flow_control; do
+            for D in blend cache/fluid cache/mesh renders/animation renders/preview assets/screenshots assets/textures scripts docs; do
+              test -d "$P/$D" || { echo "❌ Missing $P/$D"; exit 1; }
+            done
+            test -f "$P/README.md" || { echo "❌ Missing $P/README.md"; exit 1; }
+          done
+          echo "✅ Project subfolders OK"

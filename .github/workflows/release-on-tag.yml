@@ -1,0 +1,28 @@
+name: Create Release on Tag
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare bundle (optional)
+        run: |
+          mkdir -p .dist
+          cp README.md .dist/
+          # Pievieno, ko vēlies ielikt Release ZIP
+          (cd .dist && zip -r project_docs.zip .)
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            .dist/project_docs.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+``

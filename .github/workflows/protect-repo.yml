@@ -1,0 +1,44 @@
+name: Protect Repo From Heavy or Forbidden Files
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  protect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fail if forbidden directories are versioned
+        run: |
+          # directories that should NOT be tracked
+          forbidden_dirs=$(git ls-files | grep -E '^(cache/|.*/cache/|renders/|.*/renders/)' || true)
+          if [ -n "$forbidden_dirs" ]; then
+            echo "❌ Found forbidden tracked paths:"
+            echo "$forbidden_dirs"
+            echo "These should be ignored via .gitignore"
+            exit 1
+          fi
+          echo "✅ No forbidden tracked directories (cache/, renders/) found."
+
+      - name: Fail if large .blend files are committed without LFS
+        run: |
+          # Threshold in bytes (20 MB)
+          threshold=$((20 * 1024 * 1024))
+          rc=0
+          while IFS= read -r f; do
+            size=$(wc -c < "$f")
+            if [ "$size" -gt "$threshold" ]; then
+              # Quick heuristic to detect LFS pointer
+              if head -n 1 "$f" | grep -q "version https://git-lfs.github.com/spec"; then
+                echo "ℹ️ $f is a Git LFS pointer (OK)"
+              else
+                echo "❌ $f is >20MB and not an LFS pointer. Please use Git LFS."
+                rc=1
+              fi
+            fi
+          done < <(git ls-files '*.blend')
+          exit $rc

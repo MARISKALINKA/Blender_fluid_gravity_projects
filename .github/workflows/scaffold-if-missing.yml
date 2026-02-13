@@ -1,0 +1,34 @@
+name: Scaffold Missing Folders
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create missing folders if needed
+        run: |
+          set -e
+          create_tree () {
+            P="$1"
+            mkdir -p "$P/blend" "$P/cache/fluid" "$P/cache/mesh" \
+                     "$P/renders/animation" "$P/renders/preview" \
+                     "$P/assets/screenshots" "$P/assets/textures" \
+                     "$P/scripts" "$P/docs"
+            [ -f "$P/README.md" ] || printf "# %s\n\nAuto-generated placeholder.\n" "$P" > "$P/README.md"
+          }
+
+          for P in projectA_fill_tank projectB_two_connected_tanks projectC_grava_flow_control; do
+            create_tree "$P"
+          done
+
+      - name: Commit scaffold (if any changes)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet && echo "No changes to commit." || git commit -m "Scaffold: restore missing folders"
+          git push
