@@ -109,7 +109,7 @@ qstat
 
 qstat-n
 
-![SUBMIT](images/ile-69a7d95a317cb.JPG)
+![SUBMIT](images/file-69a7d95a317cb.JPG)
 ![SUBMIT](images/file-69a7d96571ca3.JPG)
 
 ##### 1.3. Apskatīt savu nodi
