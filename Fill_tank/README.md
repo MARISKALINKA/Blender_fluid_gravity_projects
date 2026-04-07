@@ -45,7 +45,7 @@ Zemāk norādīts YouTube video piemērs, kas soli pa solim demonstrē simulāci
 
 Darbam uz HPC izmanto šos resursus
 
-[HPC Scripts](./HPC_SCRIPTS/)  
+[HPC Scripts](./hpc_scripts)  
 [HPC Instructions](../HPC_instructions/)
 
 
@@ -99,7 +99,7 @@ Example tutorial video (replace with your actual link):
 
 For work with HPC uses this resources
 
-[HPC Scripts](./HPC_SCRIPTS/)  
+[HPC Scripts](./hpc_scripts)  
 [HPC Instructions](../HPC_instructions/) 
 
 
