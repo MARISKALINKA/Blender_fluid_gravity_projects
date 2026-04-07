@@ -1,11 +1,4 @@
---------------------------------
-Creating project: Fill_tank
---------------------------------
-# Fill_tank
-
-
-
-# Projekta uzlikšanu uz HPC
+# Vispāreja informācija par HPC un Blender izmantošanu
 
 Augstas veiktspējas skaitļošana (High-Performance Computing, HPC) tiek īstenota, izmantojot skaitļošanas klasterus, kurus nereti neformāli dēvē par superdatoriem. Neskatoties uz šo apzīmējumu, superdators parasti nav viens monolīts datorsistēmas mezgls, bet gan savstarpēji savienotu serveru kopums, kas kopīgi izpilda liela apjoma skaitļošanas uzdevumus efektīvāk nekā viena iekārta.
 ## Vispāreja informācija 
