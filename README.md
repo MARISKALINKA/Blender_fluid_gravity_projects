@@ -21,7 +21,7 @@ Using an HPC cluster allows parallel execution of many Blender simulations at on
 LV:
 Piemērs Fill_tank parāda, kā Blender vidē izveidot pilnu ūdens plūsmas sistēmu. Tajā sūknis uzsūknē ūdeni uz augšu, bet gravitācija nodrošina, ka ūdens pakāpeniski piepilda vairākus traukus. Iekļautā video demonstrācija soli pa solim parāda, kā veidot šo modeli Blender programmā — sākot no ģeometrijas izveides un fluid domēna konfigurācijas līdz fizikas iestatījumiem, ieplūdes avotiem un bake parametriem.
 Šis piemērs ir īpaši noderīgs vizuālai izpratnei par objekta uzbūvi, plūsmas ceļiem un ūdens uzvedību gravitācijas ietekmē.
-![Fill tank](images/ievads.png)
+![Fill tank](images/ievads.jpg)
 
 EN:
 The Fill_tank example demonstrates how to build a complete water‑flow system directly inside Blender. In this setup, a pump lifts water upward, after which gravity causes the water to fill several containers. The included video demonstration shows a step‑by‑step workflow of how the example is created in Blender — from setting up geometry and fluid domains to configuring physics, inflow sources and baking parameters.
