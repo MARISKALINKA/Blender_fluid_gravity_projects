@@ -36,7 +36,7 @@ Zemāk norādīts YouTube video piemērs, kas soli pa solim demonstrē simulāci
 ## 🖼️ HPC darba plūsmas shēma
 
 ./images/hpc_flowchart.png
-![Darba plusma](hpc_flowchart.png)
+![Darba plusma](images/hpc_flowchart.png)
 
 
 
@@ -84,7 +84,7 @@ Example tutorial video (replace with your actual link):
 
 ## 🖼️ HPC Workflow Diagram
 
-./images/hpc_flowchart.png
+![Workflow](images/hpc_flowchart.png)
 
 
 
