@@ -6,6 +6,7 @@ Creating project: Fill_tank
 # 🌊 3D Ūdens gravitācijas simulācija Blender vidē + HPC darba plūsma
 # 🌊 3D Water Gravity Simulation in Blender + HPC Workflow
 
+./images/udensparaugs.jpg
 
 
 # 🇱🇻 LATVISKĀ VERSIJA
