@@ -21,6 +21,7 @@ Using an HPC cluster allows parallel execution of many Blender simulations at on
 LV:
 Piemērs Fill_tank parāda, kā Blender vidē izveidot pilnu ūdens plūsmas sistēmu. Tajā sūknis uzsūknē ūdeni uz augšu, bet gravitācija nodrošina, ka ūdens pakāpeniski piepilda vairākus traukus. Iekļautā video demonstrācija soli pa solim parāda, kā veidot šo modeli Blender programmā — sākot no ģeometrijas izveides un fluid domēna konfigurācijas līdz fizikas iestatījumiem, ieplūdes avotiem un bake parametriem.
 Šis piemērs ir īpaši noderīgs vizuālai izpratnei par objekta uzbūvi, plūsmas ceļiem un ūdens uzvedību gravitācijas ietekmē.
+![Fill tank](images/ievads.png)
 
 EN:
 The Fill_tank example demonstrates how to build a complete water‑flow system directly inside Blender. In this setup, a pump lifts water upward, after which gravity causes the water to fill several containers. The included video demonstration shows a step‑by‑step workflow of how the example is created in Blender — from setting up geometry and fluid domains to configuring physics, inflow sources and baking parameters.
@@ -31,6 +32,7 @@ This example is ideal for visually understanding system geometry, object interac
 
 LV:
 Otrs piemērs demonstrē, kā ar Python skripta palīdzību var automātiski izveidot Blender ūdens plūsmas simulāciju. Skripts ģenerē ģeometriju, uzstāda fluid domēnu, definē ieplūdes/izplūdes avotus un konfigurē gravitācijas noteiktu kustību. Šī pieeja ļauj ātri izveidot dažādus simulāciju variantus un ir īpaši piemērota automatizētai izpildei uz HPC klastera.
+![Python](images/ievads_2.png)
 
 EN:
 The second example demonstrates how a Blender water‑flow simulation can be generated programmatically using a Python script. The script creates geometry, sets fluid domains, defines inflow/outflow sources and configures gravity‑driven motion. This approach allows rapid generation of simulation variations and is suitable for automated batch runs on an HPC cluster.
