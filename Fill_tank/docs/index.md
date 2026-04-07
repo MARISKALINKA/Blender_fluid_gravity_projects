@@ -14,14 +14,14 @@ Welcome to the documentation page for the Blender water gravity simulation and H
 
 ## 🖼️ Workflow Diagram
 
-![Workflow](images/hpc_flowchart.png)
+![Workflow](./images/hpc_flowchart_eng.png)
 
 ---
 
 ## 🔗 HPC Resources
 
-[HPC Scripts](./hpc_scripts)  
-[HPC Instructions](../HPC_instructions/) 
+[HPC Scripts](../hpc_scripts)  
+[HPC Instructions](.../HPC_instructions/) 
 
 ---
 
