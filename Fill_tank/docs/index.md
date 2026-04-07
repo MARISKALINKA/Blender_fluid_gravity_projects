@@ -21,7 +21,7 @@ Welcome to the documentation page for the Blender water gravity simulation and H
 ## 🔗 HPC Resources
 
 [HPC Scripts](../hpc_scripts)  
-[HPC Instructions](../HPC_instructions/) 
+[HPC Instructions](/HPC_instructions/../HPC_instructions/) 
 
 ---
 
