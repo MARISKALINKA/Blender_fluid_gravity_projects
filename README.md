@@ -1,4 +1,4 @@
-# Blender Fluid Gravity Projects – Template Repository
+# Blender Fluid Gravity Projects 
 
 # Problem Background / Problemas apraksts
 LV
@@ -224,5 +224,5 @@ home → tikai mazām konfigurācijām
   <a href="HPC_instructions/README.md"><b>➡ HPC pieslēgšanās un darba izpilde</b></a>
 </p>
 <p align="center">
-  <a href="README_HPC.md"><b>➡ HPC pieslēgšanās un darba izpilde</b></a>
+  <a href="README_HPC.md"><b>➡ Iepazities ar HPC</b></a>
 </p>
