@@ -223,3 +223,6 @@ home → tikai mazām konfigurācijām
 <p align="center">
   <a href="HPC_instructions/README.md"><b>➡ HPC pieslēgšanās un darba izpilde</b></a>
 </p>
+<p align="center">
+  <a href="README_HPC.md"><b>➡ HPC pieslēgšanās un darba izpilde</b></a>
+</p>
