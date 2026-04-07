@@ -43,10 +43,16 @@ Zemāk norādīts YouTube video piemērs, kas soli pa solim demonstrē simulāci
 
 ## 🖥️ HPC resursi
 
-- ✅ HPC skripti → ../HPC_SCRIPTS  
-- ✅ Datu augšupielādes instrukcijas → ../HPC_instructions  
+Darbam uz HPC izmanto šos resursus
+
+[HPC Scripts](../HPC_SCRIPTS/)  
+[HPC Instructions](../HPC_instructions/)
 
 
+
+## Blender fails
+
+-  Folder Blender_file atrodas gatavs Blender projekta fails , kuru var izmantot simulācijai gan lokali , gan HPC resursos
 
 ## 🔄 HPC darba plūsma (kopsavilkums)
 
@@ -89,8 +95,12 @@ Example tutorial video (replace with your actual link):
 
 ## 🖥️ HPC Resources
 
-- ✅ HPC scripts → ../HPC_SCRIPTS  
-- ✅ Data upload instructions → ../HPC_instructions  
+## 📁 HPC Resources
+
+For work with HPC uses this resources
+
+[HPC Scripts](../HPC_SCRIPTS/)  
+[HPC Instructions](../HPC_instructions/) 
 
 
 
