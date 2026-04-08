@@ -7,5 +7,5 @@
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ## HPC resursi
-- HPC skripti: ../HPC_SCRIPTS
-- HPC instrukcijas: ../HPC_instructions
+[HPC Scripts](./HPC_SCRIPTS)  
+[HPC Instructions](../HPC_instructions/)
