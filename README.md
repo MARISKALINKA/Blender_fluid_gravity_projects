@@ -23,6 +23,15 @@ Piemērs Fill_tank parāda, kā Blender vidē izveidot pilnu ūdens plūsmas sis
 Šis piemērs ir īpaši noderīgs vizuālai izpratnei par objekta uzbūvi, plūsmas ceļiem un ūdens uzvedību gravitācijas ietekmē.
 ![Fill tank](images/ievads.jpg)
 
+Skatīt 
+<p align="center">
+  <a href="Fill_tank/README.md"><b>➡ Fill tank piemers</b></a>
+</p>
+<p align="center">
+  <a href="Fill_tank/README.md"><b>➡ Fill tank example</b></a>
+</p>
+
+
 EN:
 The Fill_tank example demonstrates how to build a complete water‑flow system directly inside Blender. In this setup, a pump lifts water upward, after which gravity causes the water to fill several containers. The included video demonstration shows a step‑by‑step workflow of how the example is created in Blender — from setting up geometry and fluid domains to configuring physics, inflow sources and baking parameters.
 This example is ideal for visually understanding system geometry, object interactions and the physical behaviour of water under gravity.
@@ -37,6 +46,12 @@ Otrs piemērs demonstrē, kā ar Python skripta palīdzību var automātiski izv
 EN:
 The second example demonstrates how a Blender water‑flow simulation can be generated programmatically using a Python script. The script creates geometry, sets fluid domains, defines inflow/outflow sources and configures gravity‑driven motion. This approach allows rapid generation of simulation variations and is suitable for automated batch runs on an HPC cluster.
 
+<p align="center">
+  <a href="Use_Python/README.md"><b>➡ Use Python piemers</b></a>
+</p>
+<p align="center">
+  <a href="Use_Python/README.md"><b>➡ Use Python Example</b></a>
+</p>
 
 ## 3. Abiem piemēriem — HPC priekšrocības
 
