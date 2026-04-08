@@ -1,14 +1,7 @@
 --------------------------------
-Creating project: projectB_two_connected_tanks
+Creating project: Create Blender project to use Python script
 --------------------------------
-# projectB_two_connected_tanks
-
-Šis ir projekta READMEs. Aizvieto ar īsto saturu.
-
-## Mapju struktūra
-- blend/ — Blender faili
-- cache/ — Mantaflow cache
-- renders/ — renderi
-- assets/ — ekrānšāviņi, video, tekstūras
-- scripts/ — Python skripti
-- docs/ — dokumentācija
+## Documentation
+- 🇱🇻 Latviešu README → ./README_LV.md
+- 🇬🇧 English README → ./README_EN.md
+``
