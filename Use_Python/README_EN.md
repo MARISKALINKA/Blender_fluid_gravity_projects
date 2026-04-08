@@ -8,6 +8,6 @@ https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ## HPC Resources
 
-[HPC Scripts](./hpc_scripts)  
+[HPC Scripts](./HPC_SCRIPTS)  
 [HPC Instructions](../HPC_instructions/)
 
