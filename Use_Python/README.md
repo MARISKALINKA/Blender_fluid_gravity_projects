@@ -34,9 +34,9 @@ kameras un apgaismojuma izvietojumu;
 keša konfigurāciju HPC videi.
 
 Skripts nodrošina:
-✅ pilnīgu automātisku ģenerēšanu
-✅ identisku rezultātu neatkarīgi no vietas/lietotāja
-✅ minimālu iestatīšanas laiku
+ - pilnīgu automātisku ģenerēšanu
+ - identisku rezultātu neatkarīgi no vietas/lietotāja
+ - minimālu iestatīšanas laiku
 
 ### Sagatavots Blender projekts HPC izmantošanai
 Mapē Blender_file/ pieejams gatavs .blend fails ar:
@@ -66,14 +66,14 @@ Tas ļauj veikt:
 
 ### Ieguvumi
 
-✅ Pilnīga automatizācija
-✅ Reproducējamība zinātniskos eksperimentos
-✅ HPC mērogojamība
-✅ Elastīga parametrizācija
-✅ Saderība ar CLI, CI/CD, HPC
-✅ Precīzi, kontroles apstākļi šķidruma dinamikas pētījumiem
+- Pilnīga automatizācija
+- Reproducējamība zinātniskos eksperimentos
+- HPC mērogojamība
+- Elastīga parametrizācija
+- Saderība ar CLI, CI/CD, HPC
+- Precīzi, kontroles apstākļi šķidruma dinamikas pētījumiem
 
-## 📜 Licence
+##  Licence
 MIT
 
 ---
