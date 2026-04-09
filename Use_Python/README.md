@@ -24,7 +24,7 @@ Projekta mērķis ir izveidot reproducējamu, automatizētu un HPC‑draudzīgu 
 
 ### Blender automatizācijas skripts
 
-<p align="center">
+<p align="left">
   <a href="./README_LV.md"><b>➡ Use Python piemers</b></a>
 </p>
 
@@ -108,7 +108,7 @@ This system ensures consistent simulation reproducibility, controlled parameter 
 
 </div>
 
-<p align="center">
+<p align="left">
   <a href="./README_EN.md"><b>➡ Use Python Example</b></a>
 </p>
 
@@ -141,9 +141,9 @@ The directory Blender_file/ contains a ready‑to‑use .blend project file, inc
 ### HPC Integration
 The project includes ready‑to‑use tools for HPC environments:
 
-HPC instructions for data upload and cache management
+- HPC instructions for data upload and cache management
 [HPC Instructions](../HPC_instructions/)
-HPC scripts for simulation and rendering jobs
+- HPC scripts for simulation and rendering jobs
 [HPC Scripts](./HPC_SCRIPTS) 
 
 This enables:
@@ -173,12 +173,4 @@ Downloading and visualizing results
 ### License
 MIT
 
-</div>
-
-<p align="center">
-  <a href="./README_LV.md"><b>➡ Use Python piemers</b></a>
-</p>
-<p align="center">
-  <a href="./README_EN.md"><b>➡ Use Python Example</b></a>
-</p>
 
