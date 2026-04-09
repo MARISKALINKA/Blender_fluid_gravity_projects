@@ -62,7 +62,7 @@ Projekts nodrošina gatavus rīkus darbam HPC vidē:
 - HPC instrukcijas datu augšupielādei, keša pārvaldībai
   [HPC Instructions](../HPC_instructions/)
 - HPC skriptus
-  
+  [HPC Scripts](./HPC_SCRIPTS) 
 
 Tas ļauj veikt:
 - augstas izšķirtspējas simulācijas (256–1024)
@@ -111,6 +111,9 @@ This system ensures consistent simulation reproducibility, controlled parameter 
 <p align="center">
   <a href="./README_EN.md"><b>➡ Use Python Example</b></a>
 </p>
+
+[Python_scripts_for_Blender](./Python_scripts_for_Blender)  
+
 The Python script generates the complete liquid simulation scene, including:
 
 - a glass tank with correct wall thickness;
@@ -139,7 +142,9 @@ The directory Blender_file/ contains a ready‑to‑use .blend project file, inc
 The project includes ready‑to‑use tools for HPC environments:
 
 HPC instructions for data upload and cache management
+[HPC Instructions](../HPC_instructions/)
 HPC scripts for simulation and rendering jobs
+[HPC Scripts](./HPC_SCRIPTS) 
 
 This enables:
 
