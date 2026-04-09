@@ -23,6 +23,11 @@ Projekta mērķis ir izveidot reproducējamu, automatizētu un HPC‑draudzīgu 
 Šī sistēma nodrošina identisku simulāciju atkārtojamību, parametru kontrolētību un piemērotību liela mēroga aprēķinu vidēm.
 
 ### Blender automatizācijas skripts
+
+<p align="center">
+  <a href="./README_LV.md"><b>➡ Use Python piemers</b></a>
+</p>
+
 Python skripts ģenerē visu šķidruma simulācijas ainu:
 
 stikla tvertni ar pareizu sienu biezumu;
@@ -93,6 +98,12 @@ HPC (High‑Performance Computing) clusters enabling high‑resolution simulatio
 This system ensures consistent simulation reproducibility, controlled parameter management, and suitability for large‑scale computational environments.
 
 ### Blender Automation Script
+
+</div>
+
+<p align="center">
+  <a href="./README_EN.md"><b>➡ Use Python Example</b></a>
+</p>
 The Python script generates the complete liquid simulation scene, including:
 
 - a glass tank with correct wall thickness;
