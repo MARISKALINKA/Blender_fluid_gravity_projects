@@ -28,6 +28,9 @@ Projekta mērķis ir izveidot reproducējamu, automatizētu un HPC‑draudzīgu 
   <a href="./README_LV.md"><b>➡ Use Python piemers</b></a>
 </p>
 
+[Python_scripts_for_Blender](./Python_scripts_for_Blender)  
+
+
 Python skripts ģenerē visu šķidruma simulācijas ainu:
 
 stikla tvertni ar pareizu sienu biezumu;
@@ -52,10 +55,14 @@ kameru, gaismu un materiāliem;
 pareizu keša maršrutēšanu HPC vidē.
 
 ### HPC integrācija
+
+
 Projekts nodrošina gatavus rīkus darbam HPC vidē:
 
 - HPC instrukcijas datu augšupielādei, keša pārvaldībai
+  [HPC Instructions](../HPC_instructions/)
 - HPC skriptus
+  
 
 Tas ļauj veikt:
 - augstas izšķirtspējas simulācijas (256–1024)
