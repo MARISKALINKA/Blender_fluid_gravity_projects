@@ -1,6 +1,6 @@
 
 # Blender projekts ar Python kodu uzdevuma izpildei uz HPC 
-# 🌐 Language / Valoda
+# Language / Valoda
 
 **Click your preferred language / Izvēlies valodu:**
 
@@ -21,6 +21,7 @@ Projekta mērķis ir izveidot reproducējamu, automatizētu un HPC‑draudzīgu 
 - HPC (High‑Performance Computing) klasterus, kas ļauj veikt augstas izšķirtspējas simulācijas un paralēlu renderēšanu.
 
 Šī sistēma nodrošina identisku simulāciju atkārtojamību, parametru kontrolētību un piemērotību liela mēroga aprēķinu vidēm.
+![Python](images/python_scripts.png)
 
 ### Blender automatizācijas skripts
 
@@ -53,6 +54,7 @@ iepriekš konfigurētu Mantaflow domēnu;
 inflow/outflow objektiem;
 kameru, gaismu un materiāliem;
 pareizu keša maršrutēšanu HPC vidē.
+![Python](images/python_scripts_code.png)
 
 ### HPC integrācija
 
