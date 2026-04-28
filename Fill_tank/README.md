@@ -80,7 +80,7 @@ After the model is created, the simulation is executed on an **HPC cluster**, gr
 ---
 
 ## 🎬 Tutorial Video  
-Example tutorial video (replace with your actual link):
+Example tutorial video :
 
 ▶ https://youtu.be/xaq2REK4nMw  
 
